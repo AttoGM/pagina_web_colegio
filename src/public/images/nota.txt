@@ -1,0 +1,10 @@
+aqui iran todas la imagenes pe
+
+
+mysqlConnection.query('select * from persona', (err, rows, fields) => {
+        if(!err) { 
+            console.log(rows);
+        } else {
+            console.log(err);
+        }
+    });

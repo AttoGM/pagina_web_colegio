@@ -11,4 +11,8 @@ router.get('/contact', (req, res) => {
     res.render('contac.html', { title: 'Contacto Pagina' });
 });
 
+router.get('/login', (req, res) => {
+    res.render('login.html');
+});
+
 module.exports = router;
